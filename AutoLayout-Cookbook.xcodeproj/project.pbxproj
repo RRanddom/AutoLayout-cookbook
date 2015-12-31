@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E385F61C35866F00D7AABF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E385F51C35866F00D7AABF /* AppDelegate.swift */; };
+		18E385F81C35866F00D7AABF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E385F71C35866F00D7AABF /* ViewController.swift */; };
+		18E385FB1C35866F00D7AABF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E385F91C35866F00D7AABF /* Main.storyboard */; };
+		18E385FD1C35866F00D7AABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E385FC1C35866F00D7AABF /* Assets.xcassets */; };
+		18E386001C35866F00D7AABF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E385FE1C35866F00D7AABF /* LaunchScreen.storyboard */; };
+		18E3860B1C35867000D7AABF /* AutoLayout_CookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3860A1C35867000D7AABF /* AutoLayout_CookbookTests.swift */; };
+		18E386161C35867000D7AABF /* AutoLayout_CookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E386151C35867000D7AABF /* AutoLayout_CookbookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18E386071C35867000D7AABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E385EA1C35866F00D7AABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E385F11C35866F00D7AABF;
+			remoteInfo = "AutoLayout-Cookbook";
+		};
+		18E386121C35867000D7AABF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18E385EA1C35866F00D7AABF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18E385F11C35866F00D7AABF;
+			remoteInfo = "AutoLayout-Cookbook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E385F21C35866F00D7AABF /* AutoLayout-Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AutoLayout-Cookbook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E385F51C35866F00D7AABF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18E385F71C35866F00D7AABF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18E385FA1C35866F00D7AABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18E385FC1C35866F00D7AABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18E385FF1C35866F00D7AABF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18E386011C35866F00D7AABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E386061C35867000D7AABF /* AutoLayout-CookbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout-CookbookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E3860A1C35867000D7AABF /* AutoLayout_CookbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_CookbookTests.swift; sourceTree = "<group>"; };
+		18E3860C1C35867000D7AABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E386111C35867000D7AABF /* AutoLayout-CookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AutoLayout-CookbookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E386151C35867000D7AABF /* AutoLayout_CookbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoLayout_CookbookUITests.swift; sourceTree = "<group>"; };
+		18E386171C35867000D7AABF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18E385EF1C35866F00D7AABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E386031C35867000D7AABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3860E1C35867000D7AABF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18E385E91C35866F00D7AABF = {
+			isa = PBXGroup;
+			children = (
+				18E385F41C35866F00D7AABF /* AutoLayout-Cookbook */,
+				18E386091C35867000D7AABF /* AutoLayout-CookbookTests */,
+				18E386141C35867000D7AABF /* AutoLayout-CookbookUITests */,
+				18E385F31C35866F00D7AABF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18E385F31C35866F00D7AABF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18E385F21C35866F00D7AABF /* AutoLayout-Cookbook.app */,
+				18E386061C35867000D7AABF /* AutoLayout-CookbookTests.xctest */,
+				18E386111C35867000D7AABF /* AutoLayout-CookbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18E385F41C35866F00D7AABF /* AutoLayout-Cookbook */ = {
+			isa = PBXGroup;
+			children = (
+				18E385F51C35866F00D7AABF /* AppDelegate.swift */,
+				18E385F71C35866F00D7AABF /* ViewController.swift */,
+				18E385F91C35866F00D7AABF /* Main.storyboard */,
+				18E385FC1C35866F00D7AABF /* Assets.xcassets */,
+				18E385FE1C35866F00D7AABF /* LaunchScreen.storyboard */,
+				18E386011C35866F00D7AABF /* Info.plist */,
+			);
+			path = "AutoLayout-Cookbook";
+			sourceTree = "<group>";
+		};
+		18E386091C35867000D7AABF /* AutoLayout-CookbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				18E3860A1C35867000D7AABF /* AutoLayout_CookbookTests.swift */,
+				18E3860C1C35867000D7AABF /* Info.plist */,
+			);
+			path = "AutoLayout-CookbookTests";
+			sourceTree = "<group>";
+		};
+		18E386141C35867000D7AABF /* AutoLayout-CookbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18E386151C35867000D7AABF /* AutoLayout_CookbookUITests.swift */,
+				18E386171C35867000D7AABF /* Info.plist */,
+			);
+			path = "AutoLayout-CookbookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18E385F11C35866F00D7AABF /* AutoLayout-Cookbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3861A1C35867000D7AABF /* Build configuration list for PBXNativeTarget "AutoLayout-Cookbook" */;
+			buildPhases = (
+				18E385EE1C35866F00D7AABF /* Sources */,
+				18E385EF1C35866F00D7AABF /* Frameworks */,
+				18E385F01C35866F00D7AABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AutoLayout-Cookbook";
+			productName = "AutoLayout-Cookbook";
+			productReference = 18E385F21C35866F00D7AABF /* AutoLayout-Cookbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18E386051C35867000D7AABF /* AutoLayout-CookbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E3861D1C35867000D7AABF /* Build configuration list for PBXNativeTarget "AutoLayout-CookbookTests" */;
+			buildPhases = (
+				18E386021C35867000D7AABF /* Sources */,
+				18E386031C35867000D7AABF /* Frameworks */,
+				18E386041C35867000D7AABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E386081C35867000D7AABF /* PBXTargetDependency */,
+			);
+			name = "AutoLayout-CookbookTests";
+			productName = "AutoLayout-CookbookTests";
+			productReference = 18E386061C35867000D7AABF /* AutoLayout-CookbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18E386101C35867000D7AABF /* AutoLayout-CookbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18E386201C35867000D7AABF /* Build configuration list for PBXNativeTarget "AutoLayout-CookbookUITests" */;
+			buildPhases = (
+				18E3860D1C35867000D7AABF /* Sources */,
+				18E3860E1C35867000D7AABF /* Frameworks */,
+				18E3860F1C35867000D7AABF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E386131C35867000D7AABF /* PBXTargetDependency */,
+			);
+			name = "AutoLayout-CookbookUITests";
+			productName = "AutoLayout-CookbookUITests";
+			productReference = 18E386111C35867000D7AABF /* AutoLayout-CookbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18E385EA1C35866F00D7AABF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zjcneil;
+				TargetAttributes = {
+					18E385F11C35866F00D7AABF = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					18E386051C35867000D7AABF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18E385F11C35866F00D7AABF;
+					};
+					18E386101C35867000D7AABF = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 18E385F11C35866F00D7AABF;
+					};
+				};
+			};
+			buildConfigurationList = 18E385ED1C35866F00D7AABF /* Build configuration list for PBXProject "AutoLayout-Cookbook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18E385E91C35866F00D7AABF;
+			productRefGroup = 18E385F31C35866F00D7AABF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18E385F11C35866F00D7AABF /* AutoLayout-Cookbook */,
+				18E386051C35867000D7AABF /* AutoLayout-CookbookTests */,
+				18E386101C35867000D7AABF /* AutoLayout-CookbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18E385F01C35866F00D7AABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E386001C35866F00D7AABF /* LaunchScreen.storyboard in Resources */,
+				18E385FD1C35866F00D7AABF /* Assets.xcassets in Resources */,
+				18E385FB1C35866F00D7AABF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E386041C35867000D7AABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3860F1C35867000D7AABF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18E385EE1C35866F00D7AABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E385F81C35866F00D7AABF /* ViewController.swift in Sources */,
+				18E385F61C35866F00D7AABF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E386021C35867000D7AABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E3860B1C35867000D7AABF /* AutoLayout_CookbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18E3860D1C35867000D7AABF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E386161C35867000D7AABF /* AutoLayout_CookbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E386081C35867000D7AABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E385F11C35866F00D7AABF /* AutoLayout-Cookbook */;
+			targetProxy = 18E386071C35867000D7AABF /* PBXContainerItemProxy */;
+		};
+		18E386131C35867000D7AABF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18E385F11C35866F00D7AABF /* AutoLayout-Cookbook */;
+			targetProxy = 18E386121C35867000D7AABF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18E385F91C35866F00D7AABF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E385FA1C35866F00D7AABF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18E385FE1C35866F00D7AABF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18E385FF1C35866F00D7AABF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18E386181C35867000D7AABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18E386191C35867000D7AABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18E3861B1C35867000D7AABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AutoLayout-Cookbook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjc-swift-demo.AutoLayout-Cookbook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18E3861C1C35867000D7AABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "AutoLayout-Cookbook/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjc-swift-demo.AutoLayout-Cookbook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18E3861E1C35867000D7AABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AutoLayout-CookbookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjc-swift-demo.AutoLayout-CookbookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout-Cookbook.app/AutoLayout-Cookbook";
+			};
+			name = Debug;
+		};
+		18E3861F1C35867000D7AABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "AutoLayout-CookbookTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjc-swift-demo.AutoLayout-CookbookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout-Cookbook.app/AutoLayout-Cookbook";
+			};
+			name = Release;
+		};
+		18E386211C35867000D7AABF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AutoLayout-CookbookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjc-swift-demo.AutoLayout-CookbookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AutoLayout-Cookbook";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18E386221C35867000D7AABF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AutoLayout-CookbookUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zjc-swift-demo.AutoLayout-CookbookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "AutoLayout-Cookbook";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18E385ED1C35866F00D7AABF /* Build configuration list for PBXProject "AutoLayout-Cookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E386181C35867000D7AABF /* Debug */,
+				18E386191C35867000D7AABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18E3861A1C35867000D7AABF /* Build configuration list for PBXNativeTarget "AutoLayout-Cookbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3861B1C35867000D7AABF /* Debug */,
+				18E3861C1C35867000D7AABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E3861D1C35867000D7AABF /* Build configuration list for PBXNativeTarget "AutoLayout-CookbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E3861E1C35867000D7AABF /* Debug */,
+				18E3861F1C35867000D7AABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18E386201C35867000D7AABF /* Build configuration list for PBXNativeTarget "AutoLayout-CookbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18E386211C35867000D7AABF /* Debug */,
+				18E386221C35867000D7AABF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18E385EA1C35866F00D7AABF /* Project object */;
+}
